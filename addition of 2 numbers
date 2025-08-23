@@ -1,0 +1,13 @@
+class AddTwoNumbers {
+    int num1 = 10;
+    int num2 = 20;
+
+    int add() {
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        AddTwoNumbers obj = new AddTwoNumbers();
+        System.out.println("Sum: " + obj.add());
+    }
+}
